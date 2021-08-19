@@ -1,11 +1,12 @@
-from problems.concurrency.problem_1114_print_in_order import task
+from problems.algorithms.problem_13_roman_to_integer import Solution
 
 
 class RunProblems:
 
     @staticmethod
     def run_task():
-        task()
+        solution = Solution()
+        solution.romanToInt(s="MCMXCIV")
 
 
 if __name__ == '__main__':
