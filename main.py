@@ -1,4 +1,4 @@
-from problems.algorithms.problem_3_longest_substring_without_repeating_characters import Solution
+from problems.algorithms.problem_009_palindrome_number import Solution
 
 
 class RunProblems:
@@ -6,8 +6,9 @@ class RunProblems:
     @staticmethod
     def run_task():
         solution = Solution()
-        answer = solution.lengthOfLongestSubstring("a")
+        answer = solution.isPalindrome(10)
         print(answer)
+
 
 if __name__ == '__main__':
     run_problems = RunProblems()
