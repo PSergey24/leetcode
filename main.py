@@ -1,4 +1,4 @@
-from problems.algorithms.problem_009_palindrome_number import Solution
+from problems.algorithms.problem_0006_zigzag_conversion import Solution
 
 
 class RunProblems:
@@ -6,7 +6,7 @@ class RunProblems:
     @staticmethod
     def run_task():
         solution = Solution()
-        answer = solution.isPalindrome(10)
+        answer = solution.convert("AB", 1)
         print(answer)
 
 
