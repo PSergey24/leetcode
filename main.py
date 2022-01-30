@@ -1,4 +1,4 @@
-from problems.algorithms.problem_0006_zigzag_conversion import Solution
+from problems.algorithms.problem_0039_combination_sum import Solution
 
 
 class RunProblems:
@@ -6,7 +6,8 @@ class RunProblems:
     @staticmethod
     def run_task():
         solution = Solution()
-        answer = solution.convert("AB", 1)
+
+        answer = solution.combinationSum([2], 1)
         print(answer)
 
 
