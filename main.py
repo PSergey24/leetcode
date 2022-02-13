@@ -11,6 +11,7 @@ class RunProblems:
         print(answer)
 
 
+
 if __name__ == '__main__':
     run_problems = RunProblems()
     run_problems.run_task()
