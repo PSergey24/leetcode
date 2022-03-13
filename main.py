@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.combinationSum([2], 1)
+        answer = solution.combinationSum([2, 3, 5], 5)
         print(answer)
 
 
