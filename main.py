@@ -1,4 +1,5 @@
-from problems.algorithms.problem_0039_combination_sum import Solution
+from problems.algorithms.problem_0022_generate_parentheses import Solution
+from problems.algorithms.problem_0392_is_subsequence import Solution
 
 
 class RunProblems:
@@ -7,7 +8,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.combinationSum([2, 3, 5], 5)
+        answer = solution.isSubsequence("ahbdc", "ahbgdc")
         print(answer)
 
 
