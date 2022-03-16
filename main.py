@@ -1,5 +1,4 @@
-from problems.algorithms.problem_0022_generate_parentheses import Solution
-
+from problems.algorithms.problem_0027_remove_element import Solution
 
 
 class RunProblems:
@@ -8,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.generateParenthesis(0)
+        answer = solution.removeElement([], 2)
         print(answer)
 
 
