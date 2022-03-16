@@ -1,4 +1,4 @@
-from problems.algorithms.problem_0027_remove_element import Solution
+from problems.algorithms.problem_0078_subsets import Solution
 
 
 class RunProblems:
@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.removeElement([], 2)
+        answer = solution.subsets([1,2,3])
         print(answer)
 
 
