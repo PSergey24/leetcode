@@ -1,5 +1,5 @@
 from problems.algorithms.problem_0022_generate_parentheses import Solution
-from problems.algorithms.problem_0392_is_subsequence import Solution
+from problems.algorithms.problem_0046_permutations import Solution
 
 
 class RunProblems:
@@ -8,7 +8,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.isSubsequence("ahbdc", "ahbgdc")
+        answer = solution.permute([1, 2, 3])
         print(answer)
 
 
