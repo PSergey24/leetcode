@@ -1,4 +1,4 @@
-from problems.algorithms.problem_0078_subsets import Solution
+from problems.algorithms.problem_0014_longest_common_prefix import Solution
 
 
 class RunProblems:
@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.subsets([1,2,3])
+        answer = solution.longestCommonPrefix(["fl","flow","f"])
         print(answer)
 
 
