@@ -1,5 +1,5 @@
 from problems.algorithms.problem_0022_generate_parentheses import Solution
-from problems.algorithms.problem_0047_permutations_II import Solution
+
 
 
 class RunProblems:
@@ -8,7 +8,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.permuteUnique([1, 1, 2])
+        answer = solution.generateParenthesis(0)
         print(answer)
 
 
