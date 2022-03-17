@@ -1,4 +1,4 @@
-from problems.algorithms.problem_0066_plus_one import Solution
+from problems.algorithms.problem_0202_happy_number import Solution
 
 
 class RunProblems:
@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.plusOne([9,9,9])
+        answer = solution.isHappy(2)
         print(answer)
 
 
