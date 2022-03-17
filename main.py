@@ -1,4 +1,4 @@
-from problems.algorithms.problem_0014_longest_common_prefix import Solution
+from problems.algorithms.problem_0066_plus_one import Solution
 
 
 class RunProblems:
@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.longestCommonPrefix(["fl","flow","f"])
+        answer = solution.plusOne([9,9,9])
         print(answer)
 
 

@@ -19,3 +19,12 @@ class Solution:
                 common_prefix_len = min(common_prefix_len, len(first_word), len(current_word))
 
         return strs[0][:common_prefix_len]
+
+        # other decision
+        # res = ""
+        # for i in range(len(strs[0])):
+        #     for s in strs:
+        #         if i == len(s) or s[i] != strs[0][i]:
+        #            return res
+        #     res += strs[0][i]
+        # return res
