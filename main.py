@@ -1,4 +1,4 @@
-from problems.algorithms.problem_0026_remove_duplicates_from_sorted_array import Solution
+from problems.algorithms.problem_0069_sqrt import Solution
 
 
 class RunProblems:
@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.removeDuplicates([0,1,1,1,2,3,3])
+        answer = solution.mySqrt(16)
         print(answer)
 
 
