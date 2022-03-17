@@ -1,4 +1,4 @@
-from problems.algorithms.problem_0202_happy_number import Solution
+from problems.algorithms.problem_0020_valid_parenntheses import Solution
 
 
 class RunProblems:
@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.isHappy(2)
+        answer = solution.isValid("(()[]{[]}")
         print(answer)
 
 
