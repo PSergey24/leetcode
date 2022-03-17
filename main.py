@@ -1,4 +1,4 @@
-from problems.algorithms.problem_0017_letter_combinations_of_a_phone_number import Solution
+from problems.algorithms.problem_0005_longest_palindromic_substring import Solution
 
 
 class RunProblems:
@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.letterCombinations("789")
+        answer = solution.longestPalindrome("babadabab")
         print(answer)
 
 
