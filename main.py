@@ -1,4 +1,4 @@
-from problems.algorithms.problem_0069_sqrt import Solution
+from problems.algorithms.problem_0017_letter_combinations_of_a_phone_number import Solution
 
 
 class RunProblems:
@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.mySqrt(16)
+        answer = solution.letterCombinations("789")
         print(answer)
 
 
