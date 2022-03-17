@@ -1,4 +1,4 @@
-from problems.algorithms.problem_0020_valid_parenntheses import Solution
+from problems.algorithms.problem_0026_remove_duplicates_from_sorted_array import Solution
 
 
 class RunProblems:
@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.isValid("(()[]{[]}")
+        answer = solution.removeDuplicates([0,1,1,1,2,3,3])
         print(answer)
 
 
