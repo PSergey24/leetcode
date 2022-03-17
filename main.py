@@ -1,4 +1,4 @@
-from problems.algorithms.problem_0005_longest_palindromic_substring import Solution
+from problems.algorithms.problem_0091_decode_ways import Solution
 
 
 class RunProblems:
@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.longestPalindrome("babadabab")
+        answer = solution.numDecodings("1243")
         print(answer)
 
 
