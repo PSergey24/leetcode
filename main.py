@@ -1,4 +1,4 @@
-from problems.algorithms.problem_0055_jump_game import Solution
+from problems.algorithms.problem_0045_jump_game_II import Solution
 
 
 class RunProblems:
@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.canJump([0])
+        answer = solution.jump([2,3,1,1,4])
         print(answer)
 
 
