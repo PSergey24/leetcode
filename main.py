@@ -1,4 +1,4 @@
-from problems.algorithms.problem_0091_decode_ways import Solution
+from problems.algorithms.problem_0055_jump_game import Solution
 
 
 class RunProblems:
@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.numDecodings("1243")
+        answer = solution.canJump([0])
         print(answer)
 
 
