@@ -1,4 +1,4 @@
-from problems.algorithms.problem_0045_jump_game_II import Solution
+from problems.algorithms.problem_0136_single_number import Solution
 
 
 class RunProblems:
@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.jump([2,3,1,1,4])
+        answer = solution.singleNumber([4,1,2,1,2])
         print(answer)
 
 
