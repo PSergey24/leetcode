@@ -1,4 +1,4 @@
-from problems.algorithms.problem_0136_single_number import Solution
+from problems.algorithms.problem_0067_add_binary import Solution
 
 
 class RunProblems:
@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.singleNumber([4,1,2,1,2])
+        answer = solution.addBinary("1010", "1011")
         print(answer)
 
 
