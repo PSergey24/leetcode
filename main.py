@@ -1,4 +1,4 @@
-from problems.algorithms.problem_0312_burst_balloons import Solution
+from problems.algorithms.problem_0012_integer_to_roman import Solution
 
 
 class RunProblems:
@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.maxCoins([3,1,5,8])
+        answer = solution.intToRoman(58)
         print(answer)
 
 
