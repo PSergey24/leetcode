@@ -1,4 +1,4 @@
-from problems.algorithms.problem_0067_add_binary import Solution
+from problems.algorithms.problem_0312_burst_balloons import Solution
 
 
 class RunProblems:
@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.addBinary("1010", "1011")
+        answer = solution.maxCoins([3,1,5,8])
         print(answer)
 
 
