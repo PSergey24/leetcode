@@ -1,4 +1,4 @@
-from problems.algorithms.problem_0028_implement_strStr import Solution
+from problems.algorithms.problem_0053_maximum_subarray import Solution
 
 
 class RunProblems:
@@ -8,7 +8,7 @@ class RunProblems:
         solution = Solution()
 
 
-        answer = solution.strStr("hello", "ll")
+        answer = solution.maxSubArray([-2,1,-3,4,-1,2,1,-5,4])
         print(answer)
 
 
