@@ -1,4 +1,4 @@
-from problems.algorithms.problem_0037_sudoku_solver import Solution
+from problems.algorithms.problem_0035_search_insert_position import Solution
 
 
 class RunProblems:
@@ -6,13 +6,9 @@ class RunProblems:
     @staticmethod
     def run_task():
         solution = Solution()
-        board = [["5", "3", ".", ".", "7", ".", ".", ".", "."], ["6", ".", ".", "1", "9", "5", ".", ".", "."],
-                 [".", "9", "8", ".", ".", ".", ".", "6", "."], ["8", ".", ".", ".", "6", ".", ".", ".", "3"],
-                 ["4", ".", ".", "8", ".", "3", ".", ".", "1"], ["7", ".", ".", ".", "2", ".", ".", ".", "6"],
-                 [".", "6", ".", ".", ".", ".", "2", "8", "."], [".", ".", ".", "4", "1", "9", ".", ".", "5"],
-                 [".", ".", ".", ".", "8", ".", ".", "7", "9"]]
 
-        answer = solution.solveSudoku(board)
+
+        answer = solution.searchInsert([1,3,5,6], 5)
         print(answer)
 
 
