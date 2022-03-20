@@ -1,4 +1,4 @@
-from problems.algorithms.problem_0035_search_insert_position import Solution
+from problems.algorithms.problem_0028_implement_strStr import Solution
 
 
 class RunProblems:
@@ -8,7 +8,7 @@ class RunProblems:
         solution = Solution()
 
 
-        answer = solution.searchInsert([1,3,5,6], 5)
+        answer = solution.strStr("hello", "ll")
         print(answer)
 
 
