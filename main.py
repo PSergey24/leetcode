@@ -1,4 +1,4 @@
-from problems.algorithms.problem_0053_maximum_subarray import Solution
+from problems.algorithms.problem_0412_fizz_buzz import Solution
 
 
 class RunProblems:
@@ -8,7 +8,7 @@ class RunProblems:
         solution = Solution()
 
 
-        answer = solution.maxSubArray([-2,1,-3,4,-1,2,1,-5,4])
+        answer = solution.fizzBuzz(10)
         print(answer)
 
 
