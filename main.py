@@ -7,7 +7,6 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-
         answer = solution.fizzBuzz(10)
         print(answer)
 
