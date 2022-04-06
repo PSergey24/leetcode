@@ -1,4 +1,4 @@
-from problems.algorithms.problem_0412_fizz_buzz import Solution
+from problems.algorithms.problem_0258_add_digits import Solution
 
 
 class RunProblems:
@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.fizzBuzz(10)
+        answer = solution.addDigits(0)
         print(answer)
 
 
