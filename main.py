@@ -1,4 +1,4 @@
-from problems.algorithms.problem_0258_add_digits import Solution
+from problems.algorithms.problems_to_0100.problem_0036_valid_sudoku import Solution
 
 
 class RunProblems:
@@ -6,8 +6,16 @@ class RunProblems:
     @staticmethod
     def run_task():
         solution = Solution()
-
-        answer = solution.addDigits(0)
+        board = [["5", "3", ".", ".", "7", ".", ".", ".", "."]
+            , ["6", ".", ".", "1", "9", "5", ".", ".", "."]
+            , [".", "9", "8", ".", ".", ".", ".", "6", "."]
+            , ["8", ".", ".", ".", "6", ".", ".", ".", "3"]
+            , ["4", ".", ".", "8", ".", "3", ".", ".", "1"]
+            , ["7", ".", ".", ".", "2", ".", ".", ".", "6"]
+            , [".", "6", ".", ".", ".", ".", "2", "8", "."]
+            , [".", ".", ".", "4", "1", "9", ".", ".", "5"]
+            , [".", ".", ".", ".", "8", ".", ".", "7", "9"]]
+        answer = solution.isValidSudoku(board)
         print(answer)
 
 
