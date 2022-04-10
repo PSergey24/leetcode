@@ -1,4 +1,4 @@
-from problems.algorithms.problems_to_0100.problem_0049_group_anagrams import Solution
+from problems.algorithms.problems_to_0100.problem_0056_merge_intervals import Solution
 
 
 class RunProblems:
@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.groupAnagrams(["eat","tea","tan","ate","nat","bat"])
+        answer = solution.merge([[1,3],[15,18],[2,6],[8,10]])
         print(answer)
 
 
