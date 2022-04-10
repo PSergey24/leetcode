@@ -1,4 +1,4 @@
-from problems.algorithms.problem_0264_ugly_number_II import Solution
+from problems.algorithms.problems_to_0100.problem_0049_group_anagrams import Solution
 
 
 class RunProblems:
@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.nthUglyNumber(10)
+        answer = solution.groupAnagrams(["eat","tea","tan","ate","nat","bat"])
         print(answer)
 
 
