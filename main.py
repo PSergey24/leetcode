@@ -1,4 +1,4 @@
-from problems.algorithms.problems_to_0100.problem_0043_multiply_strings import Solution
+from problems.algorithms.problems_to_0200.problem_0190_reverse_bits import Solution
 
 
 class RunProblems:
@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.multiply("123", "456")
+        answer = solution.reverseBits(10100101000001111010011100)
         print(answer)
 
 
