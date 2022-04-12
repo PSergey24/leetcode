@@ -1,4 +1,4 @@
-from problems.algorithms.problems_to_0200.problem_0200_number_of_islands import Solution
+from problems.algorithms.problems_to_0100.problem_0018_4Sum import Solution
 
 
 class RunProblems:
@@ -6,13 +6,8 @@ class RunProblems:
     @staticmethod
     def run_task():
         solution = Solution()
-        grid = [
-            ["1", "1", "0", "0", "0"],
-            ["1", "1", "0", "0", "0"],
-            ["0", "0", "1", "0", "0"],
-            ["0", "0", "0", "1", "1"]
-        ]
-        answer = solution.numIslands(grid)
+
+        answer = solution.fourSum([1,0,-1,0,-2,2], 0)
         print(answer)
 
 
