@@ -1,4 +1,4 @@
-from problems.algorithms.problems_to_0200.problem_0190_reverse_bits import Solution
+from problems.algorithms.problems_to_0200.problem_0200_number_of_islands import Solution
 
 
 class RunProblems:
@@ -6,8 +6,13 @@ class RunProblems:
     @staticmethod
     def run_task():
         solution = Solution()
-
-        answer = solution.reverseBits(10100101000001111010011100)
+        grid = [
+            ["1", "1", "0", "0", "0"],
+            ["1", "1", "0", "0", "0"],
+            ["0", "0", "1", "0", "0"],
+            ["0", "0", "0", "1", "1"]
+        ]
+        answer = solution.numIslands(grid)
         print(answer)
 
 
