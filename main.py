@@ -1,4 +1,4 @@
-from problems.algorithms.problems_to_0100.problem_0018_4Sum import Solution
+from problems.algorithms.problem_0693_binary_number_with_alternating_bits import Solution
 
 
 class RunProblems:
@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.fourSum([1,0,-1,0,-2,2], 0)
+        answer = solution.hasAlternatingBits2(7)
         print(answer)
 
 
