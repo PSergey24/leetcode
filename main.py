@@ -1,4 +1,4 @@
-from problems.algorithms.problems_to_0200.problem_0121_best_time_to_buy_and_sell_stock import Solution
+from problems.algorithms.problems_to_0200.problem_0119_pascals_triangle_II import Solution
 
 
 class RunProblems:
@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.maxProfit([2,7,1,8,3,4])
+        answer = solution.getRow(3)
         print(answer)
 
 
