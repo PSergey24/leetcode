@@ -1,4 +1,4 @@
-from problems.algorithms.problem_0693_binary_number_with_alternating_bits import Solution
+from problems.algorithms.problems_to_0200.problem_0121_best_time_to_buy_and_sell_stock import Solution
 
 
 class RunProblems:
@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.hasAlternatingBits2(7)
+        answer = solution.maxProfit([2,7,1,8,3,4])
         print(answer)
 
 
