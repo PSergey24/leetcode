@@ -1,13 +1,13 @@
-from problems.algorithms.problems_to_0200.problem_0119_pascals_triangle_II import Solution
+from problems.algorithms.problem_0303_range_sum_query_immutable import NumArray
 
 
 class RunProblems:
 
     @staticmethod
     def run_task():
-        solution = Solution()
+        solution = NumArray([-2, 0, 3, -5, 2, -1])
 
-        answer = solution.getRow(3)
+        answer = solution.sumRange(0, 2)
         print(answer)
 
 
