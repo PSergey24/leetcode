@@ -1,13 +1,13 @@
-from problems.algorithms.problem_0303_range_sum_query_immutable import NumArray
+from problems.algorithms.problems_to_0200.problem_0168_excel_sheet_column_title import Solution
 
 
 class RunProblems:
 
     @staticmethod
     def run_task():
-        solution = NumArray([-2, 0, 3, -5, 2, -1])
+        solution = Solution()
 
-        answer = solution.sumRange(0, 2)
+        answer = solution.convertToTitle(53)
         print(answer)
 
 
