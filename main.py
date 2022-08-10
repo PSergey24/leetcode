@@ -1,4 +1,4 @@
-from problems.algorithms.problems_to_0200.problem_0168_excel_sheet_column_title import Solution
+from problems.algorithms.problems_to_0200.problem_0160_Intersection_of_Two_Linked_Lists import Solution
 
 
 class RunProblems:
@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.convertToTitle(53)
+        answer = solution.getIntersectionNode()
         print(answer)
 
 
