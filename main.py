@@ -1,4 +1,4 @@
-from problems.algorithms.problems_to_0200.problem_0160_Intersection_of_Two_Linked_Lists import Solution
+from problems.algorithms.problems_to_0100.problem_0041_first_missing_positive import Solution
 
 
 class RunProblems:
@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.getIntersectionNode()
+        answer = solution.firstMissingPositive([3,0,6,3])
         print(answer)
 
 
