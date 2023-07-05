@@ -1,4 +1,4 @@
-from problems.algorithms.problems_to_0100.problem_0041_first_missing_positive import Solution
+from problems.algorithms.problems_to_0300.problem_0279_perfect_squares import Solution
 
 
 class RunProblems:
@@ -7,7 +7,7 @@ class RunProblems:
     def run_task():
         solution = Solution()
 
-        answer = solution.firstMissingPositive([3,0,6,3])
+        answer = solution.numSquares(6)
         print(answer)
 
 
