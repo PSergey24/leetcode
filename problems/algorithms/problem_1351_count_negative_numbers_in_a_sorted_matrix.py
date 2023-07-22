@@ -1,7 +1,7 @@
 from typing import List
 
 
-# T: O(m * log(n)
+# T: O(m * log(n))
 class Solution:
     def countNegatives(self, grid: List[List[int]]) -> int:
         count = 0
